@@ -15,7 +15,7 @@ print(f"C3 = {c3} - RANDOM")
 
 if input == c2 == c3:
     print("It's a tie! Maiiba!")
-elif input == c2 or input == c3:
+elif input < c2 or input == c3:
     print("P1 WINS!")
 elif c2 == c3:
     print("C2 WINS!")
